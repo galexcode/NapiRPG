@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="merged" tilewidth="32" tileheight="32">
+  <image source="merged.png" width="512" height="3904"/>
+ </tileset>
+ <tileset firstgid="1953" name="meta" tilewidth="32" tileheight="32">
+  <image source="meta.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-1000"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxbz8TAsAGI19OZ3g/EBwaAprc/aeFfmJn09i/MTHL9i018/TD2Ly3jlxbplBj/0iJfEutGWsUvIXq0vBr176h/R/076t9R/476d2j5d/0I8y+lNADueowV
+  </data>
+ </layer>
+ <layer name="bg2" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-999"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBh48JmFcjMM2Cg3Axk8JMFNHiy48VUs7lpGBbdyAnEEC27MTYHZ+NwnCcQZLLixNJJaM1YKHAEEM5HiAGTvaiYGhpVY8FomVHspBSvR7N0NNH8nFryXyvYiA5C9p4Hmn8SCz0LtpTR8sQFNINZCwueYUPna1LeSboCSciYTmCeygDibjTj2UAOklEmwspEW6Q8ZUKOcpAUQAPrfE4i9gNgbiH2QywsgWwpUDgKxDIH0RkodAwORQD1RQBwNxDEsCPdoArEWEGsDsQ4V6lNkkAWM50ygmVlAnA3EOUj2WgKxFRBbA7ENEL9lZmB4x4zfPGrU94Md0DpvDDVATHgg5wd86n/gKRe+0ChtsbMzMHAAMSc7mjjQnRystLUbGxAH2inBCqGRAS43IIsTowYXgPkXncYm/4MFYSaMJkYfNv3I/iVEv0DzB7H6sIUnLv/SmibFvdSkAQOPSro=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="30">
+  <object name="SpawnPoint" x="533" y="612" width="7" height="7"/>
+ </objectgroup>
+ <layer name="Pickable" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAT3AYTbK5EfBKKAmGOzpbbC7bxSMguECADP4AyU=
+  </data>
+ </layer>
+ <layer name="Meta" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxUsZMeNaW0vKeLY1JHjRkrtJRcMpL0DFb8DYe9gB8j+J4Y9CoYnwJcviMkviwikEXzy2NIaNjdQE+Dy72g5MTwAofQ40ADdffjSFy3THjaz0fMDvQCuvEZMW4WS9gyh/I6vrMAmT8hcYsoaQmUPKXpJjUNamTNQAAAj5ldN
+  </data>
+ </layer>
+ <layer name="Foreground" width="30" height="30">
+  <properties>
+   <property name="" value=""/>
+   <property name="cc_vertexz" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ARlLPS1zw1onzsLJpsYEMjKwBDESp69aUB70lkw2cSARKCdSWTaCwNL6RjOpkC7/jMBGcwMDJdYEWxTGrvBFWi+PtAeAyB+BLRXHkgrMEPEYcCSjYHBikhszUbYzmdAsx8D8VMWCBsEYGyYOAh4As3yAmJvNuLY1ARRbKSx6QkkBsjegQaywHQhB8TyQKzAQlicWsAWaKYdENsDsQMLYfGhDKJIKDPvAsuJe8y0c8soGNngObCcewHEL+lc3n2H2vcTzd7nwDz+YgDz+UDbje5/GB9XuOCSRxcnNlxhavEBbPLE6CMHILufVECKv4cbAAD3X0Ee
+  </data>
+ </layer>
+</map>
